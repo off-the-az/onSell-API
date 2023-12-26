@@ -1,0 +1,39 @@
+{
+  "name": "onsell-api",
+  "version": "0.1.1",
+  "description": "Full API module for onSell project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo 'Test'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/off-the-az/onSell-API.git"
+  },
+  "keywords": [
+    "onSell"
+  ],
+  "author": "The AZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/off-the-az/onSell-API/issues"
+  },
+  "homepage": "https://github.com/off-the-az/onSell-API#readme",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "chai-http": "^4.4.0",
+    "connect-flash": "^0.1.1",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mocha": "^10.2.0",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.3",
+    "nodemailer": "^6.9.7",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.7.2"
+  }
+}
